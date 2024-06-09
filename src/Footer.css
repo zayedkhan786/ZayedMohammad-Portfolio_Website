@@ -1,0 +1,40 @@
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px;
+}
+
+.footer-link {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s;
+}
+
+.footer-link:hover {
+    color: orangered;
+}
+
+.footer-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .footer-link {
+        margin: 10px 0;
+    }
+}

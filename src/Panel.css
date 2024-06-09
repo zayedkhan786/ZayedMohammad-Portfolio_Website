@@ -1,0 +1,26 @@
+/* Panel.css */
+
+.panel-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.panel-item {
+    color: white;
+    text-decoration: none;
+    margin: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    transition: color 0.3s;
+    font-size: large;
+}
+
+.panel-item:hover {
+    color: #ff7e5f;
+}

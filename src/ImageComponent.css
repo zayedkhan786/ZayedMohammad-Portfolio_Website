@@ -1,0 +1,31 @@
+/* ImageComponent.css */
+
+.image-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+}
+
+.image {
+    width: 50vw; /* Adjust the size as needed */
+    height: auto;
+    margin-right: 20px; /* Add some spacing between the image and the text */
+}
+
+.text-content {
+    flex: 1;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+}
+
+.text-content h2 {
+    margin-bottom: 10px;
+}
+
+.text-content p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}

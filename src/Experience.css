@@ -1,0 +1,38 @@
+/* src/About.css */
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: grey;
+}
+
+.about-container h1 {
+    color: orangered;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-section {
+    margin-bottom: 30px;
+}
+
+.about-section h2 {
+    color: grey;
+    border-bottom: 2px solid orangered;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.about-section p, .about-section ul {
+    line-height: 1.6;
+}
+
+.about-section ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.about-section ul li {
+    margin-bottom: 10px;
+}
